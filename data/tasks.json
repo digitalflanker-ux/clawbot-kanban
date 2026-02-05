@@ -1,0 +1,134 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Review Mission Control plan and choose database option",
+      "description": "Decide between JSON, Convex, or Notion for Mission Control database",
+      "priority": "high",
+      "dueDate": null,
+      "column": "backlog",
+      "subtasks": [
+        { "id": "1-1", "title": "Research JSON approach", "completed": false },
+        { "id": "1-2", "title": "Research Convex approach", "completed": false },
+        { "id": "1-3", "title": "Research Notion API approach", "completed": false }
+      ],
+      "createdAt": "2026-02-04T00:00:00.000Z",
+      "updatedAt": "2026-02-04T00:00:00.000Z",
+      "tags": ["mission-control", "database"]
+    },
+    {
+      "id": "2",
+      "title": "Review Compound Agent plan and choose AI interface",
+      "description": "Choose between Amp or Claude Code for Compound Agent AI interface",
+      "priority": "high",
+      "dueDate": null,
+      "column": "backlog",
+      "subtasks": [
+        { "id": "2-1", "title": "Research Amp capabilities", "completed": false },
+        { "id": "2-2", "title": "Research Claude Code capabilities", "completed": false }
+      ],
+      "createdAt": "2026-02-04T00:00:00.000Z",
+      "updatedAt": "2026-02-04T00:00:00.000Z",
+      "tags": ["compound-agent", "ai-interface"]
+    },
+    {
+      "id": "3",
+      "title": "Install Chrome Extension Relay",
+      "description": "Install Clawdbot Chrome Extension for browser automation",
+      "priority": "medium",
+      "dueDate": null,
+      "column": "backlog",
+      "subtasks": [
+        { "id": "3-1", "title": "Install extension", "completed": false },
+        { "id": "3-2", "title": "Pin to toolbar", "completed": false },
+        { "id": "3-3", "title": "Test connecting a tab", "completed": false },
+        { "id": "3-4", "title": "Test snapshot with Clawdbot", "completed": false }
+      ],
+      "createdAt": "2026-02-04T00:00:00.000Z",
+      "updatedAt": "2026-02-04T00:00:00.000Z",
+      "tags": ["setup", "chrome"]
+    },
+    {
+      "id": "4",
+      "title": "Start Mission Control Phase 1: Foundation",
+      "description": "Begin building the multi-agent system foundation",
+      "priority": "high",
+      "dueDate": null,
+      "column": "backlog",
+      "subtasks": [],
+      "createdAt": "2026-02-04T00:00:00.000Z",
+      "updatedAt": "2026-02-04T00:00:00.000Z",
+      "tags": ["mission-control", "development"]
+    },
+    {
+      "id": "5",
+      "title": "Start Compound Agent Phase 1: Foundation & Setup",
+      "description": "Begin building the auto-learning agent foundation",
+      "priority": "high",
+      "dueDate": null,
+      "column": "backlog",
+      "subtasks": [],
+      "createdAt": "2026-02-04T00:00:00.000Z",
+      "updatedAt": "2026-02-04T00:00:00.000Z",
+      "tags": ["compound-agent", "development"]
+    },
+    {
+      "id": "6",
+      "title": "Authenticate bird CLI for Twitter/X access",
+      "description": "Set up Twitter authentication via cookies",
+      "priority": "medium",
+      "dueDate": null,
+      "column": "backlog",
+      "subtasks": [
+        { "id": "6-1", "title": "Log into x.com in Chrome", "completed": false },
+        { "id": "6-2", "title": "Authenticate bird CLI with cookies", "completed": false },
+        { "id": "6-3", "title": "Test bird whoami", "completed": false },
+        { "id": "6-4", "title": "Test bird search", "completed": false }
+      ],
+      "createdAt": "2026-02-04T00:00:00.000Z",
+      "updatedAt": "2026-02-04T00:00:00.000Z",
+      "tags": ["twitter", "auth"]
+    },
+    {
+      "id": "7",
+      "title": "Build local Kanban app",
+      "description": "Create Next.js Kanban board for task management",
+      "priority": "critical",
+      "dueDate": null,
+      "column": "in-progress",
+      "subtasks": [
+        { "id": "7-1", "title": "Set up Next.js project", "completed": true },
+        { "id": "7-2", "title": "Create task data structure", "completed": true },
+        { "id": "7-3", "title": "Build Kanban UI with drag-and-drop", "completed": false },
+        { "id": "7-4", "title": "Add task CRUD operations", "completed": false },
+        { "id": "7-5", "title": "Add search and filter", "completed": false },
+        { "id": "7-6", "title": "Set up Drive backup", "completed": false }
+      ],
+      "createdAt": "2026-02-04T00:00:00.000Z",
+      "updatedAt": "2026-02-04T00:00:00.000Z",
+      "tags": ["development", "kanban"]
+    }
+  ],
+  "columns": {
+    "backlog": {
+      "id": "backlog",
+      "title": "Backlog",
+      "taskIds": ["1", "2", "3", "4", "5", "6"]
+    },
+    "in-progress": {
+      "id": "in-progress",
+      "title": "In Progress",
+      "taskIds": ["7"]
+    },
+    "review": {
+      "id": "review",
+      "title": "Review",
+      "taskIds": []
+    },
+    "done": {
+      "id": "done",
+      "title": "Done",
+      "taskIds": []
+    }
+  }
+}
